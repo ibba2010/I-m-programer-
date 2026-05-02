@@ -1,0 +1,110 @@
+img{
+    width: 50px;
+    border-radius: 50%;
+}
+td,th{
+    border-bottom: 1px solid lightgray;
+    padding: 7px;
+}
+table{
+    font-family: sans-serif;
+    border-collapse: collapse;
+    border: 1px solid lightgray; 
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5%;
+    transition: 1s;
+    overflow: hidden;
+}
+.button1{
+    background-color: red;
+    color: white;
+    border: none;
+}
+.button2{
+    background-color: orange;
+    color: white;
+    border: none;
+}
+.button3{
+    background-color: white;
+    color: black;
+}
+button{
+    padding: 7px 7px;
+    margin: 7px;
+    border-radius: 10px;
+}
+.false{
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 10px;
+}
+.true{
+    background-color: green;
+    padding: 7px;
+    color: white;
+    border-radius: 10px;
+}
+table:hover{
+    box-shadow: 0px 0px 30px 0px black;
+    transition: 1s;
+    scale: 110%;
+}
+.one{
+    animation: one 1s forwards;
+}
+.two{
+    animation: two 2s forwards;
+}
+.three{
+    animation: three 3s forwards;
+}
+.four{
+    animation: four 4s forwards;
+}
+.five{
+    animation: five 5s forwards;
+}
+.six{
+    animation: six 6s forwards;
+}
+@keyframes one{
+    from{
+        transform: translateX(300px);
+        opacity: 0;
+    }
+}
+@keyframes two{
+    from{
+        transform: translateX(300px);
+        opacity: 0;
+    }
+}
+@keyframes three{
+    from{
+        transform: translateX(300px);
+        opacity: 0;
+    }
+}
+@keyframes four{
+    from{
+        transform: translateX(300px);
+        opacity: 0;
+    }
+}
+@keyframes five{
+    from{
+        transform: translateX(300px);
+        opacity: 0;
+    }
+}
+@keyframes six{
+    from{
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+}
